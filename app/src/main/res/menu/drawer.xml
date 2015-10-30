@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+    <item
+        android:id="@+id/inicio"
+        android:checked="false"
+        android:icon="@drawable/ic_home"
+        android:title="@string/menu_item_home" />
+
+    <item
+        android:id="@+id/rol_nuevo"
+        android:checked="false"
+        android:icon="@drawable/ic_new"
+        android:title="@string/menu_item_nuevo_rol" />
+
+    <item
+        android:id="@+id/listado"
+        android:checked="false"
+        android:icon="@drawable/ic_listado"
+        android:title="@string/menu_item_listado" />
+
+    <item
+        android:id="@+id/brujula"
+        android:checked="false"
+        android:icon="@drawable/ic_brujula"
+        android:title="@string/menu_item_brujula" />
+
+        <item
+            android:id="@+id/mapas"
+            android:checked="false"
+            android:icon="@drawable/ic_maps"
+            android:title="@string/menu_item_mapas"
+            />
+
+        <item
+            android:id="@+id/logout"
+            android:checked="false"
+            android:icon="@drawable/ic_logout"
+            android:title="@string/menu_item_logout" />
+
+
+    </group>
+
+
+</menu>

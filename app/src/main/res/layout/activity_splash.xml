@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="15dp"
+        android:background="#88000000">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="60sp"
+            android:text="@string/app_name"
+            android:gravity="center"
+            android:textColor="@color/primary_dark"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:orientation="vertical"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp">
+
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="68dp"
+        android:background="@drawable/signin_google"
+        android:layout_gravity="center"
+        android:id="@+id/btn_google"/>
+
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="68dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:id="@+id/btn_login"
+        android:background="@drawable/signin_rol"
+        android:visibility="visible"/>
+
+    </LinearLayout>
+</LinearLayout>

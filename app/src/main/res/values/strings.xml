@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Digital Rol</string>
+
+    <string name="tutorial_cardview">Con DigitalRol usted podra crear Rols deportivos, administrar los ya existentes y aprovechar las ventajas que su smartphone le brinda.</string>
+
+    //Login
+    <string name="login_usuario">Usuario</string>
+    <string name="login_clave">Clave</string>
+    <string name="login_ingresar">Ingresar</string>
+    <string name="login_remember">Recordar usuario</string>
+    <string name="login_missing_user">Debe ingresar un usuario</string>
+    <string name="login_missing_clave">Debe ingresar una clave</string>
+
+    <string-array name="drawer_titles">
+        <item>Inicio</item>
+        <item>Rol nuevo</item>
+    </string-array>
+
+    <string name="menu_item_home">Inicio</string>
+    <string name="menu_item_nuevo_rol">ROL nuevo</string>
+    <string name="menu_item_listado">Ver ROL</string>
+    <string name="menu_item_brujula">Brujula</string>
+    <string name="menu_item_mapas">Destinos</string>
+    <string name="menu_item_logout">Cerrar sesión</string>
+
+    <string name="drawer_open">Abrir</string>
+    <string name="drawer_close">Cerrar</string>
+
+    //Nuevo Rol
+    <string name="new_rol_title">Nuevo ROL</string>
+    <string name="new_rol_embarcacion">Embarcación</string>
+    <string name="new_rol_salida">Salida</string>
+    <string name="new_rol_regreso_estimado">Regreso estimado</string>
+    <string name="new_rol_fecha">Fecha</string>
+    <string name="new_rol_hora">Hora</string>
+    <string name="new_rol_destino">Destino</string>
+    <string name="new_rol_timonel">Nombre Timonel</string>
+    <string name="new_rol_acompañantes">Acompañantes</string>
+    <string name="new_rol_nombreyapellido">Apellido y nombre</string>
+    <string name="new_rol_dni_acompañante">DNI acompañante</string>
+    <string name="new_rol_guardar">Generar ROL</string>
+    <string name="new_rol_missing_name">Debe ingresar un nombre</string>
+    <string name="new_rol_missing_dni">Debe ingresar un DNI</string>
+
+    //Listado
+    <string name="listado_title">Listado de ROL</string>
+
+    //Brujula
+    <string name="brujula_title">Brújula</string>
+
+</resources>
